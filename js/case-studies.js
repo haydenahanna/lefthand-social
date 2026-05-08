@@ -85,6 +85,36 @@ const caseStudies = {
       { value: '11,350', label: 'Total TikTok Views' }
     ],
     services: ['Instagram Reels', 'TikTok Content', 'Video Production', 'Content Strategy', 'Local Marketing']
+  },
+
+  'north-point': {
+    name: 'Real Estate Developer',
+    industry: 'Luxury Custom Homes & Development · Denver, Colorado',
+    image: 'images/NPC-hero.jpg',
+    challenge: 'A luxury real estate developer delivering ground-up custom homes and high-end remodels across Denver needed a digital presence that matched the caliber of their work. With no established brand voice or content strategy, they were missing opportunities to showcase craftsmanship, attract custom build clients, and position themselves as a leader in the Denver luxury development market.',
+    approach: 'Built a refined, minimal brand voice that mirrors the work itself: confident, intentional, and free of fluff. Developed a content strategy organized around project showcases, craft and detail close-ups, the design process, and process and philosophy. Coordinated cross-promotion with the affiliated luxury real estate team, connecting the build side and the buy side of the Denver market.',
+    impact: 'Established a clear, ownable brand presence in the Denver luxury development space. Content positions the developer as the standard for thoughtful, ground-up custom homes, supporting both client acquisition and long-term brand equity as the portfolio grows.',
+    metrics: [
+      { value: 'New', label: 'Brand Launch' },
+      { value: '4', label: 'Content Buckets' },
+      { value: '2', label: 'Sister Brands' }
+    ],
+    services: ['Brand Voice Development', 'Instagram Management', 'Facebook Management', 'LinkedIn Strategy', 'Content Strategy', 'Cross-Brand Strategy']
+  },
+
+  'vacation-rental': {
+    name: 'Vacation Rental Property',
+    industry: 'Short-Term Rental · Hospitality',
+    image: 'images/vacation-rental-hero.JPG',
+    challenge: 'A vacation rental property needed to stand out in a saturated short-term rental market and drive direct bookings. With strong amenities but limited online visibility, they needed a content strategy that would inspire travelers and convert interest into reservations.',
+    approach: 'Created a destination-driven content strategy that showcases the property and the surrounding location. Built engagement through travel-focused communities and platforms where guests actively plan trips. Focused on driving traffic to direct booking channels to reduce reliance on third-party platforms.',
+    impact: 'Grew the property\'s digital presence into a consistent booking driver, with content that captures the experience guests can expect when they arrive.',
+    metrics: [
+      { value: 'TBD', label: 'Booking Inquiries' },
+      { value: 'TBD', label: 'Reach Growth' },
+      { value: 'TBD', label: 'Direct Bookings' }
+    ],
+    services: ['Instagram Management', 'Facebook Management', 'Content Creation', 'Booking Strategy', 'Community Engagement']
   }
 };
 

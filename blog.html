@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Marketing insights, social media tips, and content strategy advice from Lefthand Social.">
+  <title>Blog | Lefthand Social</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="apple-touch-icon" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo"><img src="images/Lefthand Horiztonal Logo.svg" alt="Lefthand Social"></a>
+      <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="blog.html" class="nav-link active">Blog</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero hero-video" style="min-height: auto; padding-top: 120px; padding-bottom: var(--spacing-lg);">
+    <img class="hero-image-bg" src="images/Hero Background.jpg" alt="">
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content fade-in">
+        <p class="hero-tagline">Blog</p>
+        <h1>Marketing Insights</h1>
+        <p class="hero-description">Tips, strategies, and thoughts on building brands that connect.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Filter Tags -->
+  <section class="section" style="padding-bottom: 0;">
+    <div class="container">
+      <div class="blog-tags fade-in">
+        <button class="blog-tag active" data-tag="all">All Posts</button>
+        <button class="blog-tag" data-tag="social-media">Social Media</button>
+        <button class="blog-tag" data-tag="content-creation">Content Creation</button>
+        <button class="blog-tag" data-tag="strategy">Strategy</button>
+        <button class="blog-tag" data-tag="tiktok">TikTok</button>
+        <button class="blog-tag" data-tag="email">Email Marketing</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Posts Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="blog-grid fade-in">
+        <!-- Sample Blog Post 1 -->
+        <article class="blog-card" data-tags="social-media strategy">
+          <div class="blog-card-image">
+            <img src="images/Hero Background.jpg" alt="Blog post">
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span class="blog-card-date">January 24, 2026</span>
+              <span class="blog-card-tag">Social Media</span>
+            </div>
+            <h3>5 Social Media Trends to Watch in 2026</h3>
+            <p>The landscape is always shifting. Here's what's actually worth paying attention to this year.</p>
+            <a href="blog/social-media-trends-2026.html" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <!-- Sample Blog Post 2 -->
+        <article class="blog-card" data-tags="content-creation tiktok">
+          <div class="blog-card-image">
+            <img src="images/Saint Hero Image.jpg" alt="Blog post">
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span class="blog-card-date">January 20, 2026</span>
+              <span class="blog-card-tag">Content Creation</span>
+            </div>
+            <h3>Creating Video Content That Doesn't Feel Forced</h3>
+            <p>Authenticity matters more than production value. Here's how to show up naturally on camera.</p>
+            <a href="blog/authentic-video-content.html" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <!-- Sample Blog Post 3 -->
+        <article class="blog-card" data-tags="email strategy">
+          <div class="blog-card-image">
+            <img src="images/Lawton Smith Hero Image.jpg" alt="Blog post">
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span class="blog-card-date">January 15, 2026</span>
+              <span class="blog-card-tag">Email Marketing</span>
+            </div>
+            <h3>Why Your Email Open Rates Are Dropping (And How to Fix It)</h3>
+            <p>It's not just you. Email engagement is changing. Here's what's actually working now.</p>
+            <a href="blog/email-open-rates.html" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <!-- Coming Soon Placeholder -->
+        <article class="blog-card blog-card-cta">
+          <div class="blog-card-content" style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; height: 100%;">
+            <h3>More Coming Soon</h3>
+            <p>New posts every week. Follow along for the latest marketing insights.</p>
+            <a href="https://instagram.com/lefthandsocial" target="_blank" class="btn btn-outline" style="margin-top: 1rem;">Follow on Instagram</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter CTA -->
+  <section class="section cta-video">
+    <div class="cta-overlay"></div>
+    <div class="container text-center fade-in">
+      <h2>Want these insights in your inbox?</h2>
+      <p class="text-large mb-lg">Subscribe for occasional marketing tips and updates.</p>
+      <a href="contact.html" class="btn btn-light">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo"><img src="images/logo-white.svg" alt="Lefthand Social"></div>
+          <p class="footer-description">Strategic marketing that builds brands worth remembering.</p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul class="footer-links">
+            <li><a href="https://instagram.com/lefthandsocial" target="_blank">Instagram</a></li>
+            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+            <li><a href="https://tiktok.com" target="_blank">TikTok</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2026 Lefthand Social. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com/lefthandsocial" target="_blank">Instagram</a>
+          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+          <a href="https://tiktok.com" target="_blank">TikTok</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/blog.js"></script>
+</body>
+</html>
