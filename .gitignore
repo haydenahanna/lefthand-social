@@ -13,3 +13,4 @@ node_modules/
 
 # Large video files (hosted externally)
 *.mp4
+.vercel
