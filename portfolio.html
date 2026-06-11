@@ -14,7 +14,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -26,19 +26,19 @@
   <!-- Navigation -->
   <nav class="nav">
     <div class="container nav-container">
-      <a href="index.html" class="nav-logo"><img src="images/Lefthand Horiztonal Logo.svg" alt="Lefthand Social"></a>
+      <a href="/" class="nav-logo"><img src="images/Lefthand Horiztonal Logo.svg" alt="Lefthand Social"></a>
       <div class="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </div>
       <ul class="nav-links">
-        <li><a href="index.html" class="nav-link">Home</a></li>
-        <li><a href="about.html" class="nav-link">About</a></li>
-        <li><a href="services.html" class="nav-link">Services</a></li>
-        <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
-        <li><a href="contact.html" class="nav-link">Contact</a></li>
-        <li><a href="blog.html" class="nav-link">Blog</a></li>
+        <li><a href="/" class="nav-link">Home</a></li>
+        <li><a href="/about" class="nav-link">About</a></li>
+        <li><a href="/services" class="nav-link">Services</a></li>
+        <li><a href="/portfolio" class="nav-link active">Portfolio</a></li>
+        <li><a href="/contact" class="nav-link">Contact</a></li>
+        <li><a href="/blog" class="nav-link">Blog</a></li>
       </ul>
     </div>
   </nav>
@@ -50,8 +50,7 @@
     <div class="container">
       <div class="hero-content fade-in">
         <p class="hero-tagline">Portfolio</p>
-        <h1>Work That Speaks</h1>
-        <p class="hero-description">A collection of brands we've had the pleasure of working with.</p>
+        <h1 class="caps">Work That <em>Speaks</em></h1>
       </div>
     </div>
   </section>
@@ -59,23 +58,28 @@
   <!-- Portfolio Grid -->
   <section class="section">
     <div class="container">
+      <div class="text-center mb-lg fade-in">
+        <p class="hero-tagline">Case Studies</p>
+        <h2>A glimpse into our <em>work</em></h2>
+        <p class="text-large">A look at some of the brands we've helped show up and stand out.</p>
+      </div>
       <div class="portfolio-grid fade-in">
         <!-- Lawton & Smith Team -->
         <div class="portfolio-item" data-case-study="lawton-smith">
           <img src="images/Lawton Smith Hero Image.jpg" alt="Luxury Real Estate Team">
           <div class="portfolio-overlay">
             <h3>Luxury Real Estate Team</h3>
-            <p>Social Media, Email Marketing, Strategy</p>
+            <p>Full-Service Marketing, Social, Email, Web</p>
             <span class="portfolio-cta">View Results</span>
           </div>
         </div>
 
-        <!-- North Point Construction -->
+        <!-- Northpoint Construction -->
         <div class="portfolio-item" data-case-study="north-point">
           <img src="images/NPC-hero.jpg" alt="Real Estate Developer">
           <div class="portfolio-overlay">
             <h3>Real Estate Developer</h3>
-            <p>Brand Strategy, Social Media, Content</p>
+            <p>Website, Branding, Social Media, Content</p>
             <span class="portfolio-cta">View Results</span>
           </div>
         </div>
@@ -112,9 +116,9 @@
 
         <!-- Organic Sandwich Co -->
         <div class="portfolio-item" data-case-study="organic-sandwich">
-          <img src="images/Organic Sandwich Hero Image.jpg.webp" alt="Local Restaurant">
+          <img src="images/Organic Sandwich Hero Image.jpg.webp" alt="Locally Owned Restaurant">
           <div class="portfolio-overlay">
-            <h3>Local Restaurant</h3>
+            <h3>Locally Owned Restaurant</h3>
             <p>Video Content, TikTok, Instagram</p>
             <span class="portfolio-cta">View Results</span>
           </div>
@@ -125,55 +129,191 @@
           <img src="images/vacation-rental-hero.JPG" alt="Vacation Rental Property">
           <div class="portfolio-overlay">
             <h3>Vacation Rental Property</h3>
-            <p>Social Media, Booking Strategy</p>
+            <p>Listing Launch, Social Media, Bookings</p>
             <span class="portfolio-cta">View Results</span>
           </div>
         </div>
 
         <!-- Coming Soon -->
         <div class="portfolio-item portfolio-item-cta">
-          <img src="images/Hero Background.jpg" alt="Your Brand Here" style="filter: grayscale(100%) brightness(0.4);">
+          <img src="images/Hero Background.jpg" alt="Your Business Here" style="filter: grayscale(100%) brightness(0.4);">
           <div class="portfolio-overlay" style="opacity: 1; background: transparent;">
-            <h3>Your Brand Here</h3>
+            <h3>Your Business Here</h3>
             <p>Ready to see results like these?</p>
-            <a href="contact.html" class="btn btn-light" style="margin-top: 1rem;">Let's Talk</a>
+            <a href="/contact" class="btn btn-light" style="margin-top: 1rem;">Let's Talk</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Case Study Preview -->
-  <section class="section section-dark">
+  <!-- Before & After Showcase -->
+  <section class="section section-ba">
     <div class="container">
-      <div class="about-grid fade-in">
-        <div class="about-image">
-          <img src="images/Lawton Smith Hero Image.jpg" alt="Luxury Real Estate">
+      <div class="text-center mb-lg fade-in">
+        <p class="hero-tagline">Selected Work</p>
+        <h2>Before &amp; <em>after</em></h2>
+        <p class="text-large">The same brand, reimagined. A look at the feeds we've rebuilt.</p>
+      </div>
+
+      <div class="ba-showcase fade-in">
+        <div class="ba-row">
+          <div class="ba-pair">
+            <div class="ba-item">
+              <span class="ba-tag ba-tag-before">Before</span>
+              <figure class="ba-frame"><img src="images/L&S-Before-Feed.jpeg" alt="Luxury real estate Instagram feed before"></figure>
+            </div>
+            <div class="ba-item">
+              <span class="ba-tag ba-tag-after">After</span>
+              <figure class="ba-frame"><img src="images/L&S-After-Feed.jpeg" alt="Luxury real estate Instagram feed after"></figure>
+            </div>
+          </div>
+          <div class="ba-caption">
+            <h3>Luxury Real Estate Team</h3>
+            <p>An inconsistent grid became a cohesive, elevated presence, growing Instagram reach by over 16,000% and supporting $10.2M in volume closed.</p>
+          </div>
         </div>
-        <div>
-          <p class="hero-tagline" style="color: var(--color-gray-light);">Featured Project</p>
-          <h2>Luxury Real Estate</h2>
-          <p class="text-large">Building a digital presence that matches the caliber of the homes.</p>
-          <p>For a top-producing Denver real estate team, we developed a comprehensive marketing strategy spanning social media, email newsletters, and thought leadership content. The approach focuses on sophisticated storytelling that resonates with high-end buyers and sellers.</p>
-          <p style="margin-bottom: var(--spacing-md);"><strong style="color: var(--color-cream);">Services:</strong> Instagram, Facebook, LinkedIn, Email Marketing, Content Strategy</p>
+
+        <div class="ba-row ba-row-reverse">
+          <div class="ba-pair">
+            <div class="ba-item">
+              <span class="ba-tag ba-tag-before">Before</span>
+              <figure class="ba-frame"><img src="images/Organic-Sandwich-Before-Feed.jpeg" alt="Local restaurant Instagram feed before"></figure>
+            </div>
+            <div class="ba-item">
+              <span class="ba-tag ba-tag-after">After</span>
+              <figure class="ba-frame"><img src="images/Organic-Sandwich-After-Feed.png" alt="Local restaurant Instagram feed after"></figure>
+            </div>
+          </div>
+          <div class="ba-caption">
+            <h3>Local Restaurant in Boulder</h3>
+            <p>An inconsistent feed became a crave-worthy, video-first presence that brought the shop's personality to the surface and turned scrolls into walk-ins.</p>
+          </div>
+        </div>
+
+        <div class="ba-row">
+          <div class="ba-pair">
+            <div class="ba-item">
+              <span class="ba-tag ba-tag-before">Before</span>
+              <figure class="ba-frame"><img src="images/NPC-Before-Feed.jpeg" alt="Design-build firm Instagram feed before"></figure>
+            </div>
+            <div class="ba-item">
+              <span class="ba-tag ba-tag-after">After</span>
+              <figure class="ba-frame"><img src="images/NPC-After-Feed.jpeg" alt="Design-build firm Instagram feed after"></figure>
+            </div>
+          </div>
+          <div class="ba-caption">
+            <h3>Luxury Construction Firm</h3>
+            <p>With only a handful of posts, they had almost no presence to speak of. We built a consistent, polished feed that puts the craftsmanship front and center and gives prospective clients a reason to reach out.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Second Case Study -->
+  <!-- By the Numbers -->
   <section class="section">
     <div class="container">
-      <div class="about-grid fade-in" style="grid-template-columns: 1fr 1fr;">
-        <div>
-          <p class="hero-tagline">Featured Project</p>
-          <h2>Island Hospitality</h2>
-          <p class="text-large">Capturing the essence of tropical luxury.</p>
-          <p>For boutique hospitality brands in the U.S. Virgin Islands, we create monthly content that transports audiences to island life. From resort properties to excursion companies, the focus is on warm, inviting content that inspires travel and builds genuine connections.</p>
-          <p><strong>Services:</strong> Instagram, Facebook, TikTok, Community Engagement</p>
+      <div class="text-center mb-lg fade-in">
+        <p class="hero-tagline">By the Numbers</p>
+        <h2>Content that <em>performs</em></h2>
+        <p class="text-large">A look at some of the content that's taken off, and the views to prove it.</p>
+      </div>
+
+      <div class="proof-marquee fade-in">
+        <div class="proof-track">
+          <figure class="proof-card"><img src="images/Viral-Content-1.png" alt="Viral video view count"></figure>
+          <figure class="proof-card"><img src="images/Viral-Content-2.png" alt="Viral video view count"></figure>
+          <figure class="proof-card"><img src="images/Viral-Content-3.png" alt="Viral video view count"></figure>
+          <figure class="proof-card"><img src="images/Viral-Content-4.png" alt="Viral video view count"></figure>
+          <figure class="proof-card"><img src="images/Viral-Content-5.png" alt="Viral video view count"></figure>
+          <figure class="proof-card"><img src="images/Viral-Content-6.png" alt="Viral video view count"></figure>
+          <figure class="proof-card"><img src="images/Viral-Content-7.png" alt="Viral video view count"></figure>
+          <figure class="proof-card"><img src="images/Viral-Content-8.png" alt="Viral video view count"></figure>
+          <figure class="proof-card"><img src="images/Viral-Content-9.png" alt="Viral video view count"></figure>
+          <figure class="proof-card"><img src="images/Viral-Content-10.png" alt="Viral video view count"></figure>
+          <figure class="proof-card"><img src="images/Viral-Content-11.png" alt="Viral video view count"></figure>
+          <figure class="proof-card"><img src="images/Viral-Content-12.png" alt="Viral video view count"></figure>
+          <!-- duplicate set for a seamless loop -->
+          <figure class="proof-card" aria-hidden="true"><img src="images/Viral-Content-1.png" alt=""></figure>
+          <figure class="proof-card" aria-hidden="true"><img src="images/Viral-Content-2.png" alt=""></figure>
+          <figure class="proof-card" aria-hidden="true"><img src="images/Viral-Content-3.png" alt=""></figure>
+          <figure class="proof-card" aria-hidden="true"><img src="images/Viral-Content-4.png" alt=""></figure>
+          <figure class="proof-card" aria-hidden="true"><img src="images/Viral-Content-5.png" alt=""></figure>
+          <figure class="proof-card" aria-hidden="true"><img src="images/Viral-Content-6.png" alt=""></figure>
+          <figure class="proof-card" aria-hidden="true"><img src="images/Viral-Content-7.png" alt=""></figure>
+          <figure class="proof-card" aria-hidden="true"><img src="images/Viral-Content-8.png" alt=""></figure>
+          <figure class="proof-card" aria-hidden="true"><img src="images/Viral-Content-9.png" alt=""></figure>
+          <figure class="proof-card" aria-hidden="true"><img src="images/Viral-Content-10.png" alt=""></figure>
+          <figure class="proof-card" aria-hidden="true"><img src="images/Viral-Content-11.png" alt=""></figure>
+          <figure class="proof-card" aria-hidden="true"><img src="images/Viral-Content-12.png" alt=""></figure>
         </div>
-        <div class="about-image">
-          <img src="images/Saint Hero Image.jpg" alt="Island Hospitality">
+      </div>
+    </div>
+  </section>
+
+  <!-- Content in Motion -->
+  <section class="section section-ba">
+    <div class="container">
+      <div class="text-center mb-lg fade-in">
+        <p class="hero-tagline">Content in Motion</p>
+        <h2>Made to be <em>watched</em></h2>
+        <p class="text-large">A look at the video and photo content we create, optimized for social media.</p>
+      </div>
+
+      <div class="reel-marquee fade-in">
+        <div class="reel-track">
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/07b212508ece4dcfab99f86ecf34d87e.mp4" poster="videos/posters/07b212508ece4dcfab99f86ecf34d87e.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/13f48d151fe04acc94d7dc2546daa3c1.mp4" poster="videos/posters/13f48d151fe04acc94d7dc2546daa3c1.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/v15044gf0000cul4trvog65vkvkc356g.mp4" poster="videos/posters/v15044gf0000cul4trvog65vkvkc356g.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/177cbdc0a1a648379e19e4de0a6c15e4.mp4" poster="videos/posters/177cbdc0a1a648379e19e4de0a6c15e4.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/227780b6dbe9439f83898b55c43cf507.mp4" poster="videos/posters/227780b6dbe9439f83898b55c43cf507.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/v15044gf0000d2po4ovog65me3qgpac0.mp4" poster="videos/posters/v15044gf0000d2po4ovog65me3qgpac0.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/483fa4a0e13f4b59a327a1d9c705ab88.mp4" poster="videos/posters/483fa4a0e13f4b59a327a1d9c705ab88.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/58ffecaf7a8a47498abca501a84a5112.mp4" poster="videos/posters/58ffecaf7a8a47498abca501a84a5112.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/v15044gf0000d3325nnog65jhrfm3jo0.mp4" poster="videos/posters/v15044gf0000d3325nnog65jhrfm3jo0.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/6b92ad990aa146ec979fe4a98e615441.mp4" poster="videos/posters/6b92ad990aa146ec979fe4a98e615441.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/6f1da766aabb43ac954ec67c67b3dd3e.mp4" poster="videos/posters/6f1da766aabb43ac954ec67c67b3dd3e.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/824c7be5f3824a72b1dac0b54e07d37f.mp4" poster="videos/posters/824c7be5f3824a72b1dac0b54e07d37f.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/v15044gf0000d6obvenog65ijj7jan40.mp4" poster="videos/posters/v15044gf0000d6obvenog65ijj7jan40.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/84b93c63e3e444bf98ccd5843687f419.mp4" poster="videos/posters/84b93c63e3e444bf98ccd5843687f419.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/862386136dac4e8db7445ea84f8d6212.mp4" poster="videos/posters/862386136dac4e8db7445ea84f8d6212.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/v15044gf0000d7pvoa7og65n2qr899u0.mp4" poster="videos/posters/v15044gf0000d7pvoa7og65n2qr899u0.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/8dea69fa575a4a6a9c251540350d7cbd.mp4" poster="videos/posters/8dea69fa575a4a6a9c251540350d7cbd.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/914fb758e56e4b14880161352d40a31e.mp4" poster="videos/posters/914fb758e56e4b14880161352d40a31e.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/a00b952303564283b8f5d49bb704255a.mp4" poster="videos/posters/a00b952303564283b8f5d49bb704255a.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/v15044gf0000d7slrdfog65t6gdteiq0.mp4" poster="videos/posters/v15044gf0000d7slrdfog65t6gdteiq0.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/b7a5fd937a924f4ba4c53da7ea208712.mp4" poster="videos/posters/b7a5fd937a924f4ba4c53da7ea208712.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/c44e652c2b0d460690664499ae4d76c1.mp4" poster="videos/posters/c44e652c2b0d460690664499ae4d76c1.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/v15044gf0000d8dpjinog65ph5bcmei0.mp4" poster="videos/posters/v15044gf0000d8dpjinog65ph5bcmei0.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone"><div class="reel-media"><video src="videos/fc19fe11c9bd401f8abc1846f928ee08.mp4" poster="videos/posters/fc19fe11c9bd401f8abc1846f928ee08.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <!-- duplicate set for a seamless loop -->
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/07b212508ece4dcfab99f86ecf34d87e.mp4" poster="videos/posters/07b212508ece4dcfab99f86ecf34d87e.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/13f48d151fe04acc94d7dc2546daa3c1.mp4" poster="videos/posters/13f48d151fe04acc94d7dc2546daa3c1.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/v15044gf0000cul4trvog65vkvkc356g.mp4" poster="videos/posters/v15044gf0000cul4trvog65vkvkc356g.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/177cbdc0a1a648379e19e4de0a6c15e4.mp4" poster="videos/posters/177cbdc0a1a648379e19e4de0a6c15e4.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/227780b6dbe9439f83898b55c43cf507.mp4" poster="videos/posters/227780b6dbe9439f83898b55c43cf507.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/v15044gf0000d2po4ovog65me3qgpac0.mp4" poster="videos/posters/v15044gf0000d2po4ovog65me3qgpac0.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/483fa4a0e13f4b59a327a1d9c705ab88.mp4" poster="videos/posters/483fa4a0e13f4b59a327a1d9c705ab88.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/58ffecaf7a8a47498abca501a84a5112.mp4" poster="videos/posters/58ffecaf7a8a47498abca501a84a5112.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/v15044gf0000d3325nnog65jhrfm3jo0.mp4" poster="videos/posters/v15044gf0000d3325nnog65jhrfm3jo0.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/6b92ad990aa146ec979fe4a98e615441.mp4" poster="videos/posters/6b92ad990aa146ec979fe4a98e615441.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/6f1da766aabb43ac954ec67c67b3dd3e.mp4" poster="videos/posters/6f1da766aabb43ac954ec67c67b3dd3e.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/824c7be5f3824a72b1dac0b54e07d37f.mp4" poster="videos/posters/824c7be5f3824a72b1dac0b54e07d37f.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/v15044gf0000d6obvenog65ijj7jan40.mp4" poster="videos/posters/v15044gf0000d6obvenog65ijj7jan40.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/84b93c63e3e444bf98ccd5843687f419.mp4" poster="videos/posters/84b93c63e3e444bf98ccd5843687f419.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/862386136dac4e8db7445ea84f8d6212.mp4" poster="videos/posters/862386136dac4e8db7445ea84f8d6212.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/v15044gf0000d7pvoa7og65n2qr899u0.mp4" poster="videos/posters/v15044gf0000d7pvoa7og65n2qr899u0.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/8dea69fa575a4a6a9c251540350d7cbd.mp4" poster="videos/posters/8dea69fa575a4a6a9c251540350d7cbd.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/914fb758e56e4b14880161352d40a31e.mp4" poster="videos/posters/914fb758e56e4b14880161352d40a31e.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/a00b952303564283b8f5d49bb704255a.mp4" poster="videos/posters/a00b952303564283b8f5d49bb704255a.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/v15044gf0000d7slrdfog65t6gdteiq0.mp4" poster="videos/posters/v15044gf0000d7slrdfog65t6gdteiq0.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/b7a5fd937a924f4ba4c53da7ea208712.mp4" poster="videos/posters/b7a5fd937a924f4ba4c53da7ea208712.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/c44e652c2b0d460690664499ae4d76c1.mp4" poster="videos/posters/c44e652c2b0d460690664499ae4d76c1.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/v15044gf0000d8dpjinog65ph5bcmei0.mp4" poster="videos/posters/v15044gf0000d8dpjinog65ph5bcmei0.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+          <figure class="reel-phone" aria-hidden="true"><div class="reel-media"><video src="videos/fc19fe11c9bd401f8abc1846f928ee08.mp4" poster="videos/posters/fc19fe11c9bd401f8abc1846f928ee08.jpg" autoplay muted loop playsinline preload="none"></video></div></figure>
+        
+        
         </div>
       </div>
     </div>
@@ -185,7 +325,7 @@
     <div class="container text-center fade-in">
       <h2>Ready to be next?</h2>
       <p class="text-large mb-lg">Let's create something worth showing off.</p>
-      <a href="contact.html" class="btn btn-light">Start Your Project</a>
+      <a href="/contact" class="btn btn-light">Start Your Project</a>
     </div>
   </section>
 
@@ -200,29 +340,30 @@
         <div>
           <h4>Navigation</h4>
           <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/blog">Blog</a></li>
           </ul>
         </div>
         <div>
           <h4>Connect</h4>
           <ul class="footer-links">
             <li><a href="https://instagram.com/lefthandsocial" target="_blank">Instagram</a></li>
-            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
-            <li><a href="https://tiktok.com" target="_blank">TikTok</a></li>
+            <li><a href="https://www.linkedin.com/company/lefthand-social/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://tiktok.com/@lefthandsocial" target="_blank">TikTok</a></li>
           </ul>
+          <a href="mailto:lefthandsocial@gmail.com" class="footer-email-btn"><i class="fa-regular fa-envelope"></i> Email Us</a>
         </div>
       </div>
       <div class="footer-bottom">
         <p class="footer-copyright">&copy; 2026 Lefthand Social. All rights reserved.</p>
         <div class="footer-social">
           <a href="https://instagram.com/lefthandsocial" target="_blank">Instagram</a>
-          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-          <a href="https://tiktok.com" target="_blank">TikTok</a>
+          <a href="https://www.linkedin.com/company/lefthand-social/" target="_blank">LinkedIn</a>
+          <a href="https://tiktok.com/@lefthandsocial" target="_blank">TikTok</a>
         </div>
       </div>
     </div>

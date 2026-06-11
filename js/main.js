@@ -68,6 +68,17 @@ document.addEventListener('DOMContentLoaded', function() {
     fadeObserver.observe(element);
   });
 
+  // --- Rotating Hero Word ---
+  const rwItems = document.querySelectorAll('.rotate-word .rw-item');
+  if (rwItems.length > 1) {
+    let rwIndex = 0;
+    setInterval(function() {
+      rwItems[rwIndex].classList.remove('is-active');
+      rwIndex = (rwIndex + 1) % rwItems.length;
+      rwItems[rwIndex].classList.add('is-active');
+    }, 2600);
+  }
+
   // --- Smooth Scroll for Anchor Links ---
   const anchorLinks = document.querySelectorAll('a[href^="#"]');
 

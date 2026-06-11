@@ -14,7 +14,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -26,19 +26,19 @@
   <!-- Navigation -->
   <nav class="nav">
     <div class="container nav-container">
-      <a href="index.html" class="nav-logo"><img src="images/Lefthand Horiztonal Logo.svg" alt="Lefthand Social"></a>
+      <a href="/" class="nav-logo"><img src="images/Lefthand Horiztonal Logo.svg" alt="Lefthand Social"></a>
       <div class="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </div>
       <ul class="nav-links">
-        <li><a href="index.html" class="nav-link">Home</a></li>
-        <li><a href="about.html" class="nav-link active">About</a></li>
-        <li><a href="services.html" class="nav-link">Services</a></li>
-        <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-        <li><a href="contact.html" class="nav-link">Contact</a></li>
-        <li><a href="blog.html" class="nav-link">Blog</a></li>
+        <li><a href="/" class="nav-link">Home</a></li>
+        <li><a href="/about" class="nav-link active">About</a></li>
+        <li><a href="/services" class="nav-link">Services</a></li>
+        <li><a href="/portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="/contact" class="nav-link">Contact</a></li>
+        <li><a href="/blog" class="nav-link">Blog</a></li>
       </ul>
     </div>
   </nav>
@@ -50,7 +50,7 @@
     <div class="container">
       <div class="hero-content fade-in">
         <p class="hero-tagline">About</p>
-        <h1>The Story Behind the Brand</h1>
+        <h1 class="caps">The <em>Story</em> Behind the Brand</h1>
       </div>
     </div>
   </section>
@@ -58,42 +58,54 @@
   <!-- About Content -->
   <section class="section">
     <div class="container">
-      <div class="about-grid fade-in">
-        <div class="about-image">
-          <img src="images/Vertical Headshot.jpg" alt="Hayden Hanna">
+      <div class="about-grid about-grid-story fade-in">
+        <div class="about-story-media">
+          <img src="images/Hayden-Headshot.jpg" alt="Hayden Hanna">
         </div>
         <div>
-          <h2>Meet our founder, Hayden</h2>
-          <p class="text-large">Hayden Hanna founded Lefthand Social on a simple belief: brands grow when their marketing genuinely connects with people.</p>
-          <p>After years of working with businesses across different industries, from luxury real estate to island resorts to local restaurants, our team has learned that great marketing isn't about following trends or gaming algorithms. It's about understanding what makes your brand unique and communicating that in a way that resonates.</p>
-          <p>Hayden started Lefthand Social to work closely with brands we believe in, creating content that feels authentic rather than generic. Today, our team brings that same care to every client we serve. Every business has a story worth telling, and we're here to help you tell it.</p>
+          <h2>Our Story</h2>
+          <p class="about-byline">Meet Hayden, Founder <span class="byline-divider"></span> Boulder, Colorado &amp; beyond</p>
+          <p>Lefthand Social started with a simple realization: too many great businesses go unseen, not because they aren't good enough, but because the right people never find them.</p>
+          <p class="about-pullquote about-stat-strip"><span>74% of people research a brand on social media before they ever buy.</span></p>
+          <p>Often, the only difference between a business that thrives and one that struggles is whether people can find it. That's why we exist. We help brands show up authentically where their customers already are, turning attention into real connection and lasting growth.</p>
+          <p>Over the years, we've worked with businesses across a wide range of industries, from luxury real estate and boutique hospitality to restaurants, retail, and beyond. Different brands, different goals, but the same mission every time: helping them show up with confidence and reach the people who matter most.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Philosophy -->
-  <section class="section section-dark">
+  <section class="section approach-section">
     <div class="container">
-      <div class="text-center mb-lg fade-in">
-        <h2>Our Approach</h2>
-      </div>
+      <div class="approach-editorial fade-in">
+        <div class="approach-intro">
+          <p class="hero-tagline" style="color: var(--color-dark);">Our Approach</p>
+          <h2>How we think about <em>the content</em></h2>
+          <p>Three principles guide everything we make, from a single caption to a full brand strategy.</p>
+        </div>
 
-      <div class="grid grid-3 fade-in">
-        <div class="service-item" style="border: none;">
-          <div class="service-number">01</div>
-          <h3>Strategy First</h3>
-          <p>Every post, email, and piece of content serves a purpose. We focus on understanding your goals and audience before creating anything.</p>
-        </div>
-        <div class="service-item" style="border: none;">
-          <div class="service-number">02</div>
-          <h3>Authentic Voice</h3>
-          <p>Your brand has a unique personality. We work to capture and amplify that voice consistently across every platform.</p>
-        </div>
-        <div class="service-item" style="border: none;">
-          <div class="service-number">03</div>
-          <h3>Real Results</h3>
-          <p>Beyond vanity metrics, we focus on engagement and outcomes that actually matter for your business growth.</p>
+        <div class="approach-list">
+          <div class="approach-row">
+            <span class="approach-num">01</span>
+            <div class="approach-row-body">
+              <h3>Strategy First</h3>
+              <p>Every post, email, and piece of content serves a purpose. We start by understanding your goals and audience, long before we create anything.</p>
+            </div>
+          </div>
+          <div class="approach-row">
+            <span class="approach-num">02</span>
+            <div class="approach-row-body">
+              <h3>Authentic Voice</h3>
+              <p>Your brand has a personality that's entirely its own. We work to capture and amplify that voice consistently across every platform.</p>
+            </div>
+          </div>
+          <div class="approach-row">
+            <span class="approach-num">03</span>
+            <div class="approach-row-body">
+              <h3>Real Results</h3>
+              <p>We look past vanity metrics to the engagement and outcomes that actually move your business forward.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -102,15 +114,16 @@
   <!-- Why Lefthand -->
   <section class="section">
     <div class="container">
-      <div class="about-grid fade-in" style="grid-template-columns: 1fr 1fr;">
+      <div class="about-grid fade-in">
         <div>
-          <h2>Why "Lefthand"?</h2>
-          <p class="text-large">Sometimes the best approach is the unexpected one.</p>
-          <p>In a world where marketing can feel repetitive and predictable, we believe in finding the angle that others miss. The name Lefthand Social represents that different perspective, the willingness to try something new while staying true to what works.</p>
-          <p>It's also a nod to thinking with both sides of the brain: the creative and the strategic, the artistic and the analytical. Great marketing requires both.</p>
+          <h2>Why <em>Lefthand</em>?</h2>
+          <p>Your left hand is governed by the right side of your brain, the creative, intuitive, artistic side.</p>
+          <p>That's where we lead from. Strategy and analytics are the foundation of everything we do, but creativity is what makes a brand feel genuine, and genuine is what people remember. Most marketing leans on the analytical and forgets the art. We make room for both.</p>
+          <p>Lefthand Social is a reminder that the best marketing is strategic and creative at once: built on data, brought to life through storytelling and design.</p>
+          <p>It's also a nod to our founder, who's left-handed, and to the hands-on, personal approach that runs through everything we make. That human touch is what makes a brand feel genuine.</p>
         </div>
         <div class="about-image">
-          <!-- Placeholder for brand/lifestyle image -->
+          <img src="images/laptop-window-light.jpg" alt="A bright, minimal workspace by a window">
         </div>
       </div>
     </div>
@@ -122,7 +135,7 @@
     <div class="container text-center fade-in">
       <h2>Let's work together</h2>
       <p class="text-large mb-lg">Ready to build a brand that people actually remember?</p>
-      <a href="contact.html" class="btn btn-light">Get in Touch</a>
+      <a href="/contact" class="btn btn-light">Get in Touch</a>
     </div>
   </section>
 
@@ -137,29 +150,30 @@
         <div>
           <h4>Navigation</h4>
           <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/blog">Blog</a></li>
           </ul>
         </div>
         <div>
           <h4>Connect</h4>
           <ul class="footer-links">
             <li><a href="https://instagram.com/lefthandsocial" target="_blank">Instagram</a></li>
-            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
-            <li><a href="https://tiktok.com" target="_blank">TikTok</a></li>
+            <li><a href="https://www.linkedin.com/company/lefthand-social/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://tiktok.com/@lefthandsocial" target="_blank">TikTok</a></li>
           </ul>
+          <a href="mailto:lefthandsocial@gmail.com" class="footer-email-btn"><i class="fa-regular fa-envelope"></i> Email Us</a>
         </div>
       </div>
       <div class="footer-bottom">
         <p class="footer-copyright">&copy; 2026 Lefthand Social. All rights reserved.</p>
         <div class="footer-social">
           <a href="https://instagram.com/lefthandsocial" target="_blank">Instagram</a>
-          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-          <a href="https://tiktok.com" target="_blank">TikTok</a>
+          <a href="https://www.linkedin.com/company/lefthand-social/" target="_blank">LinkedIn</a>
+          <a href="https://tiktok.com/@lefthandsocial" target="_blank">TikTok</a>
         </div>
       </div>
     </div>

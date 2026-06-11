@@ -14,7 +14,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -26,19 +26,19 @@
   <!-- Navigation -->
   <nav class="nav">
     <div class="container nav-container">
-      <a href="index.html" class="nav-logo"><img src="images/Lefthand Horiztonal Logo.svg" alt="Lefthand Social"></a>
+      <a href="/" class="nav-logo"><img src="images/Lefthand Horiztonal Logo.svg" alt="Lefthand Social"></a>
       <div class="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </div>
       <ul class="nav-links">
-        <li><a href="index.html" class="nav-link">Home</a></li>
-        <li><a href="about.html" class="nav-link">About</a></li>
-        <li><a href="services.html" class="nav-link">Services</a></li>
-        <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-        <li><a href="contact.html" class="nav-link">Contact</a></li>
-        <li><a href="blog.html" class="nav-link active">Blog</a></li>
+        <li><a href="/" class="nav-link">Home</a></li>
+        <li><a href="/about" class="nav-link">About</a></li>
+        <li><a href="/services" class="nav-link">Services</a></li>
+        <li><a href="/portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="/contact" class="nav-link">Contact</a></li>
+        <li><a href="/blog" class="nav-link active">Blog</a></li>
       </ul>
     </div>
   </nav>
@@ -50,8 +50,8 @@
     <div class="container">
       <div class="hero-content fade-in">
         <p class="hero-tagline">Blog</p>
-        <h1>Marketing Insights</h1>
-        <p class="hero-description">Tips, strategies, and thoughts on building brands that connect.</p>
+        <h1 class="caps">The <em>Edit</em></h1>
+        <p class="hero-description">Our curated tips, strategies, and thoughts on building brands that connect.</p>
       </div>
     </div>
   </section>
@@ -71,7 +71,11 @@
         <!-- Sample Blog Post 1 -->
         <article class="blog-card" data-tags="social-media strategy">
           <div class="blog-card-image">
-            <img src="images/phone-app-hands.jpg" alt="Hands using a social media app on a phone">
+            <div class="blog-cover">
+              <img src="images/phone-app-hands.jpg" alt="Hands using a social media app on a phone">
+              <img src="images/phone-photo-closeup.jpg" alt="Capturing content on a phone">
+              <img src="images/laptop-screen-images.jpg" alt="A laptop screen showing content">
+            </div>
           </div>
           <div class="blog-card-content">
             <div class="blog-card-meta">
@@ -80,14 +84,18 @@
             </div>
             <h3>5 Social Media Trends to Watch in 2026</h3>
             <p>The landscape is always shifting. Here's what's actually worth paying attention to this year.</p>
-            <a href="blog/social-media-trends-2026.html" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
+            <a href="/blog/social-media-trends-2026" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
           </div>
         </article>
 
         <!-- Sample Blog Post 2 -->
         <article class="blog-card" data-tags="content-creation tiktok">
           <div class="blog-card-image">
-            <img src="images/phone-photo-closeup.jpg" alt="Close-up of hands holding a phone capturing content">
+            <div class="blog-cover">
+              <img src="images/phone-photo-closeup.jpg" alt="Close-up of hands holding a phone capturing content">
+              <img src="images/phone-app-hands.jpg" alt="A person using a social media app on their phone">
+              <img src="images/workspace-wooden-table.jpg" alt="A warm, styled workspace on a wooden table">
+            </div>
           </div>
           <div class="blog-card-content">
             <div class="blog-card-meta">
@@ -96,14 +104,18 @@
             </div>
             <h3>Creating Video Content That Doesn't Feel Forced</h3>
             <p>Authenticity matters more than production value. Here's how to show up naturally on camera.</p>
-            <a href="blog/authentic-video-content.html" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
+            <a href="/blog/authentic-video-content" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
           </div>
         </article>
 
         <!-- Sample Blog Post 3 -->
         <article class="blog-card" data-tags="email strategy">
           <div class="blog-card-image">
-            <img src="images/workspace-laptop-white-desk.jpg" alt="Laptop on a clean desk in soft natural light">
+            <div class="blog-cover">
+              <img src="images/workspace-laptop-white-desk.jpg" alt="Laptop on a clean desk in soft natural light">
+              <img src="images/laptop-window-light.jpg" alt="A bright workspace by a window">
+              <img src="images/laptop-screen-images.jpg" alt="A laptop screen showing content">
+            </div>
           </div>
           <div class="blog-card-content">
             <div class="blog-card-meta">
@@ -112,7 +124,7 @@
             </div>
             <h3>Why Your Email Open Rates Are Dropping (And How to Fix It)</h3>
             <p>It's not just you. Email engagement is changing. Here's what's actually working now.</p>
-            <a href="blog/email-open-rates.html" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
+            <a href="/blog/email-open-rates" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
           </div>
         </article>
 
@@ -134,7 +146,7 @@
     <div class="container text-center fade-in">
       <h2>Want these insights in your inbox?</h2>
       <p class="text-large mb-lg">Subscribe for occasional marketing tips and updates.</p>
-      <a href="contact.html" class="btn btn-light">Get in Touch</a>
+      <a href="/contact" class="btn btn-light">Get in Touch</a>
     </div>
   </section>
 
@@ -149,29 +161,30 @@
         <div>
           <h4>Navigation</h4>
           <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/blog">Blog</a></li>
           </ul>
         </div>
         <div>
           <h4>Connect</h4>
           <ul class="footer-links">
             <li><a href="https://instagram.com/lefthandsocial" target="_blank">Instagram</a></li>
-            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
-            <li><a href="https://tiktok.com" target="_blank">TikTok</a></li>
+            <li><a href="https://www.linkedin.com/company/lefthand-social/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://tiktok.com/@lefthandsocial" target="_blank">TikTok</a></li>
           </ul>
+          <a href="mailto:lefthandsocial@gmail.com" class="footer-email-btn"><i class="fa-regular fa-envelope"></i> Email Us</a>
         </div>
       </div>
       <div class="footer-bottom">
         <p class="footer-copyright">&copy; 2026 Lefthand Social. All rights reserved.</p>
         <div class="footer-social">
           <a href="https://instagram.com/lefthandsocial" target="_blank">Instagram</a>
-          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-          <a href="https://tiktok.com" target="_blank">TikTok</a>
+          <a href="https://www.linkedin.com/company/lefthand-social/" target="_blank">LinkedIn</a>
+          <a href="https://tiktok.com/@lefthandsocial" target="_blank">TikTok</a>
         </div>
       </div>
     </div>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brand Palette | Lefthand Social</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#1A1A1A; --cream:#F7F4EF; --stone:#9B948B;
+      --wine:#7B1E3B;
+      --pink:#F2DDDC; --avocado:#8C9A66; --sky:#AAD0EA;
+      --serif:'Cormorant Garamond',Georgia,serif;
+      --sans:'Lato',-apple-system,sans-serif;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:var(--sans);color:var(--ink);background:#fff;line-height:1.7;-webkit-font-smoothing:antialiased;}
+    .wrap{max-width:1100px;margin:0 auto;padding:80px 48px 96px;}
+    .kicker{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--stone);margin-bottom:1rem;}
+    h1{font-family:var(--serif);font-weight:500;font-size:3.4rem;line-height:1.05;margin-bottom:1.1rem;}
+    h1 em{font-style:italic;}
+    .lede{font-family:var(--serif);font-size:1.5rem;font-weight:300;color:#444;max-width:760px;margin-bottom:1rem;}
+    .note{font-size:.95rem;color:var(--stone);max-width:720px;}
+    .group{margin-top:64px;}
+    .group-head{display:flex;align-items:baseline;gap:1rem;border-bottom:1px solid rgba(0,0,0,.12);padding-bottom:.6rem;margin-bottom:1.8rem;}
+    .group-head h2{font-family:var(--serif);font-weight:500;font-size:1.9rem;font-style:italic;}
+    .group-head span{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--stone);}
+    .row{display:grid;gap:20px;}
+    .row.cols-3{grid-template-columns:repeat(3,1fr);}
+    .row.cols-2{grid-template-columns:repeat(2,1fr);}
+    .row.cols-1{grid-template-columns:1fr;}
+    .sw{border:1px solid rgba(0,0,0,.07);border-radius:4px;overflow:hidden;background:#fff;}
+    .chip{height:140px;}
+    .chip.tall{height:200px;}
+    .sw-body{padding:14px 16px 18px;}
+    .sw-name{font-family:var(--serif);font-size:1.35rem;font-weight:500;line-height:1.1;}
+    .sw-hex{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--stone);margin:.25rem 0 .55rem;}
+    .sw-use{font-size:.86rem;color:#555;}
+    .signature{display:grid;grid-template-columns:1.1fr .9fr;gap:0;border:1px solid rgba(0,0,0,.07);border-radius:4px;overflow:hidden;}
+    .signature .chip{height:auto;min-height:220px;}
+    .signature .sw-body{padding:28px 30px;align-self:center;}
+    .signature .sw-name{font-size:2rem;}
+    .pairings{margin-top:80px;}
+    .bars{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:1.6rem;}
+    .bar{border:1px solid rgba(0,0,0,.07);border-radius:4px;overflow:hidden;}
+    .bar .stack{display:flex;height:120px;}
+    .bar .stack span{flex:1;}
+    .bar p{font-size:.82rem;color:#555;padding:12px 14px;}
+    .bar p b{font-family:var(--serif);font-size:1.05rem;font-weight:500;color:var(--ink);display:block;font-style:italic;}
+    footer{margin-top:80px;padding-top:24px;border-top:1px solid rgba(0,0,0,.12);font-size:.85rem;color:var(--stone);}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="kicker">Lefthand Social</p>
+    <h1>The <em>Color</em> System</h1>
+    <p class="lede">One palette, rotated by season — always recognizably yours.</p>
+    <p class="note">Two tiers. <strong>Neutrals</strong> (black, cream, stone) are the workhorses — text, backgrounds, lines — and carry ~90% of everything; they're the foundation, not "brand colors." On top sit your <strong>brand colors</strong>: Bordeaux as the signature you own year-round, plus three soft accents (powder pink, avocado, baby blue) that lean into different seasons while still reading as one brand. On the feed, let imagery (palms, ocean, food) bring the brightness; the palette keeps the brand consistent on top of it.</p>
+
+    <!-- FOUNDATION -->
+    <div class="group">
+      <div class="group-head"><h2>Neutrals</h2><span>The foundation &middot; not "brand colors" &middot; ~90%</span></div>
+      <div class="row cols-3">
+        <div class="sw"><div class="chip" style="background:#1A1A1A"></div><div class="sw-body"><div class="sw-name">Ink</div><div class="sw-hex">#1A1A1A</div><div class="sw-use">Type, anchors, the base of everything.</div></div></div>
+        <div class="sw"><div class="chip" style="background:#F7F4EF;border-bottom:1px solid rgba(0,0,0,.06)"></div><div class="sw-body"><div class="sw-name">Cream</div><div class="sw-hex">#F7F4EF</div><div class="sw-use">Backgrounds &amp; breathing room. Warmer than stark white.</div></div></div>
+        <div class="sw"><div class="chip" style="background:#9B948B"></div><div class="sw-body"><div class="sw-name">Stone</div><div class="sw-hex">#9B948B</div><div class="sw-use">Muted captions, fine lines, secondary text.</div></div></div>
+      </div>
+    </div>
+
+    <!-- SIGNATURE -->
+    <div class="group">
+      <div class="group-head"><h2>Signature</h2><span>Year-round &middot; "the Lefthand color"</span></div>
+      <div class="signature">
+        <div class="chip" style="background:#7B1E3B"></div>
+        <div class="sw-body">
+          <div class="sw-name">Bordeaux</div>
+          <div class="sw-hex">#7B1E3B</div>
+          <div class="sw-use">Your one constant accent — logo moments, links, buttons, key details. Distinctive and ownable (almost no agency uses oxblood). Leans naturally festive around the holidays without ever looking seasonal-only.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACCENTS -->
+    <div class="group">
+      <div class="group-head"><h2>Accents</h2><span>Soft &middot; seasonal &middot; used sparingly</span></div>
+      <div class="row cols-3">
+        <div class="sw"><div class="chip tall" style="background:#F2DDDC;border-bottom:1px solid rgba(0,0,0,.06)"></div><div class="sw-body"><div class="sw-name">Powder Pink</div><div class="sw-hex">#F2DDDC</div><div class="sw-use">Pale, near-white pink — a whisper of the wine family. Soft backgrounds &amp; spring graphics.</div></div></div>
+        <div class="sw"><div class="chip tall" style="background:#8C9A66"></div><div class="sw-body"><div class="sw-name">Avocado</div><div class="sw-hex">#8C9A66</div><div class="sw-use">Fresh garden green. Summer posts, food &amp; lifestyle content.</div></div></div>
+        <div class="sw"><div class="chip tall" style="background:#AAD0EA"></div><div class="sw-body"><div class="sw-name">Baby Blue</div><div class="sw-hex">#AAD0EA</div><div class="sw-use">Soft, clean baby blue — fresh and light. Pulls from Caribbean sky &amp; water in reels.</div></div></div>
+      </div>
+    </div>
+
+    <!-- PAIRINGS -->
+    <div class="pairings">
+      <div class="group-head"><h2>Seasonal pairings</h2><span>How they combine on a feed</span></div>
+      <div class="bars">
+        <div class="bar"><div class="stack"><span style="background:#F7F4EF"></span><span style="background:#F2DDDC"></span><span style="background:#8C9A66"></span><span style="background:#1A1A1A"></span></div><p><b>Spring</b>Powder pink + avocado on cream, anchored in ink.</p></div>
+        <div class="bar"><div class="stack"><span style="background:#F7F4EF"></span><span style="background:#AAD0EA"></span><span style="background:#8C9A66"></span><span style="background:#9B948B"></span></div><p><b>Summer / Caribbean</b>Baby blue &amp; green pulled from imagery.</p></div>
+        <div class="bar"><div class="stack"><span style="background:#1A1A1A"></span><span style="background:#7B1E3B"></span><span style="background:#F7F4EF"></span><span style="background:#9B948B"></span></div><p><b>Holidays</b>Bordeaux on ink, cream &amp; stone.</p></div>
+        <div class="bar"><div class="stack"><span style="background:#1A1A1A"></span><span style="background:#F7F4EF"></span><span style="background:#7B1E3B"></span><span style="background:#AAD0EA"></span></div><p><b>Everyday</b>Foundation + a touch of wine or blue.</p></div>
+      </div>
+    </div>
+
+    <footer>Reference board &middot; not part of the live site &middot; lefthand-social brand palette</footer>
+  </div>
+</body>
+</html>

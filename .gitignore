@@ -13,4 +13,6 @@ node_modules/
 
 # Large video files (hosted externally)
 *.mp4
+# Portfolio reel clips are web-optimized (H.264, ~1MB each) and committed
+!videos/*.mp4
 .vercel

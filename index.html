@@ -14,31 +14,31 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <!-- Styles -->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css?v=2">
 </head>
 <body>
   <!-- Navigation -->
   <nav class="nav">
     <div class="container nav-container">
-      <a href="index.html" class="nav-logo"><img src="images/Lefthand Horiztonal Logo.svg" alt="Lefthand Social"></a>
+      <a href="/" class="nav-logo"><img src="images/Lefthand Horiztonal Logo.svg" alt="Lefthand Social"></a>
       <div class="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </div>
       <ul class="nav-links">
-        <li><a href="index.html" class="nav-link active">Home</a></li>
-        <li><a href="about.html" class="nav-link">About</a></li>
-        <li><a href="services.html" class="nav-link">Services</a></li>
-        <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-        <li><a href="contact.html" class="nav-link">Contact</a></li>
-        <li><a href="blog.html" class="nav-link">Blog</a></li>
+        <li><a href="/" class="nav-link active">Home</a></li>
+        <li><a href="/about" class="nav-link">About</a></li>
+        <li><a href="/services" class="nav-link">Services</a></li>
+        <li><a href="/portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="/contact" class="nav-link">Contact</a></li>
+        <li><a href="/blog" class="nav-link">Blog</a></li>
       </ul>
     </div>
   </nav>
@@ -49,71 +49,182 @@
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content fade-in">
-        <h1>Marketing That Moves People</h1>
+        <h1 class="caps">Marketing That <span class="rotate-word"><em class="rw-item is-active">Moves</em><em class="rw-item">Inspires</em><em class="rw-item">Converts</em><em class="rw-item">Connects</em></span> People</h1>
         <p class="hero-description">Strategic social media, email marketing, and content that builds brands worth remembering.</p>
-        <a href="contact.html" class="btn btn-light">Let's Work Together</a>
+        <a href="/contact" class="btn btn-light">Let's Work Together</a>
       </div>
     </div>
   </section>
 
-  <!-- Services Preview -->
+  <!-- Hook Section -->
+  <section class="section">
+    <div class="container">
+      <div class="hook-split fade-in">
+        <div class="hook-text">
+          <h2>Your business is better than your <em>feed</em> makes it look.</h2>
+          <p class="text-large">When you're busy running the thing, marketing is what gets rushed, and what people find online ends up selling you short. We close that gap, so how your brand shows up finally matches how good it actually is.</p>
+          <p style="font-style: italic;">You've built something worth noticing. We make sure people do.</p>
+          <a href="/contact" class="btn btn-primary mt-md">Let's Talk</a>
+        </div>
+        <div class="overlap-stack">
+          <img class="overlap-a" src="images/workspace-wooden-table.jpg" alt="A warm, styled workspace">
+          <img class="overlap-b" src="images/phone-photo-closeup.jpg" alt="Capturing content on a phone">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services (full-bleed, clickable) -->
+  <section class="services-fullbleed">
+    <div class="container">
+      <p class="hero-tagline services-bleed-kicker">What We Offer</p>
+      <nav class="services-list-bleed">
+        <a href="/services#full-social">Full Social Management</a>
+        <a href="/services#content-creation">Content Creation</a>
+        <a href="/services#email-marketing">Email Marketing</a>
+        <a href="/services" class="services-bleed-more">&amp; More</a>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Who We've Worked With -->
+  <section class="section client-section">
+    <div class="container">
+      <div class="text-center fade-in">
+        <p class="hero-tagline">Who We've Worked With</p>
+      </div>
+    </div>
+    <div class="logo-marquee fade-in">
+      <div class="logo-marquee-track">
+        <div class="logo-item"><img src="images/clients/Airbnb-Logo.png" alt="Airbnb"></div>
+        <div class="logo-item"><img src="images/clients/LS-Logo.png" alt="The Lawton & Smith Team"></div>
+        <div class="logo-item"><img class="logo-pad" src="images/clients/Fabletics-Logo.png" alt="Fabletics"></div>
+        <div class="logo-item"><img src="images/clients/Saint-Logo.png" alt="The Saint Resort"></div>
+        <div class="logo-item"><img class="logo-pad" src="images/clients/Graduate-Hotels-Logo.png" alt="Graduate Hotels"></div>
+        <div class="logo-item"><img class="logo-pad" src="images/clients/OS-logo.png" alt="Ocean Surfari"></div>
+        <div class="logo-item"><img src="images/clients/Vrbo-Logo-4.png" alt="Vrbo"></div>
+        <div class="logo-item"><img class="logo-pad" src="images/clients/Organic-Sandwich-Logo-4.png" alt="Organic Sandwich Co"></div>
+        <div class="logo-item"><img class="logo-pad" src="images/clients/Sprouts-Logo.png" alt="Sprouts"></div>
+        <div class="logo-item"><img src="images/clients/NPC-Logo.png" alt="Northpoint"></div>
+        <div class="logo-item"><img class="logo-pad" src="images/clients/Call-Your-Mother-Logo-4.png" alt="Call Your Mother"></div>
+        <div class="logo-item"><img src="images/clients/Bluebird-Ski-Lockers-Logo.png" alt="Bluebird Ski Lockers"></div>
+        <div class="logo-item"><img class="logo-pad" src="images/clients/Aspen-Equity-Logo.png" alt="Aspen Equity"></div>
+        <div class="logo-item"><img class="logo-pad" src="images/clients/Nude-Foods-Logo.png" alt="Nude Foods"></div>
+        <div class="logo-item"><img src="images/clients/exp-Logo-4.png" alt="eXp"></div>
+        <div class="logo-item"><img src="images/clients/SCT-Logo-4.png" alt="SCT"></div>
+        <div class="logo-item"><img class="logo-pad" src="images/clients/grafi-Logo-4.png" alt="grafi"></div>
+        <div class="logo-item"><img src="images/clients/Spruce-Harbor-Logo.png" alt="Spruce Harbor Capital"></div>
+        <!-- duplicate set for a seamless loop -->
+        <div class="logo-item" aria-hidden="true"><img src="images/clients/Airbnb-Logo.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img src="images/clients/LS-Logo.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img class="logo-pad" src="images/clients/Fabletics-Logo.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img src="images/clients/Saint-Logo.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img class="logo-pad" src="images/clients/Graduate-Hotels-Logo.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img class="logo-pad" src="images/clients/OS-logo.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img src="images/clients/Vrbo-Logo-4.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img class="logo-pad" src="images/clients/Organic-Sandwich-Logo-4.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img class="logo-pad" src="images/clients/Sprouts-Logo.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img src="images/clients/NPC-Logo.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img class="logo-pad" src="images/clients/Call-Your-Mother-Logo-4.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img src="images/clients/Bluebird-Ski-Lockers-Logo.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img class="logo-pad" src="images/clients/Aspen-Equity-Logo.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img class="logo-pad" src="images/clients/Nude-Foods-Logo.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img src="images/clients/exp-Logo-4.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img src="images/clients/SCT-Logo-4.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img class="logo-pad" src="images/clients/grafi-Logo-4.png" alt=""></div>
+        <div class="logo-item" aria-hidden="true"><img src="images/clients/Spruce-Harbor-Logo.png" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Value / Story Section -->
+  <section class="section">
+    <div class="container">
+      <div class="hook-split fade-in">
+        <div class="overlap-stack overlap-stack-tall">
+          <img class="overlap-a" src="images/phone-app-hands.jpg" alt="Browsing a brand's social feed on a phone">
+          <img class="overlap-b" src="images/laptop-window-light.jpg" alt="A bright, minimal workspace by a window">
+        </div>
+        <div class="hook-text">
+          <p class="hero-tagline">The Difference</p>
+          <h2>Content that feels like <em>you</em>, and works like strategy</h2>
+          <p class="text-large">When it comes to your social presence, you want one thing: results. We make choosing your brand the easy choice through scroll-stopping content, intentional design, and strategy that actually sells.</p>
+          <p style="font-style: italic;">No filler, no posting just to post. Just marketing that earns attention and turns it into customers.</p>
+          <a href="/contact" class="btn btn-primary mt-md">Let's Work Together</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Edit (Latest Blog) -->
   <section class="section">
     <div class="container">
       <div class="text-center mb-lg fade-in">
-        <h2>What We Do</h2>
-        <p class="text-large">Helping brands connect with their audience through thoughtful, strategic marketing.</p>
+        <h2>The <em>Edit</em></h2>
+        <p class="text-large">Marketing insights, strategy, and the occasional unfiltered take.</p>
       </div>
 
-      <div class="grid grid-3 fade-in">
-        <div class="card">
-          <h3>Social Media Management</h3>
-          <p>Content creation, scheduling, and community engagement that builds real connections with your audience.</p>
-        </div>
-        <div class="card">
-          <h3>Email Marketing</h3>
-          <p>Strategic email campaigns that nurture leads and keep your brand top of mind.</p>
-        </div>
-        <div class="card">
-          <h3>Content Strategy</h3>
-          <p>Cohesive content plans that tell your brand story and drive meaningful results.</p>
-        </div>
+      <div class="blog-grid blog-grid-horizontal fade-in">
+        <article class="blog-card">
+          <div class="blog-card-image">
+            <div class="blog-cover">
+              <img src="images/phone-app-hands.jpg" alt="Hands using a social media app on a phone">
+              <img src="images/phone-photo-closeup.jpg" alt="Capturing content on a phone">
+              <img src="images/laptop-screen-images.jpg" alt="A laptop screen showing content">
+            </div>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span class="blog-card-date">January 24, 2026</span>
+              <span class="blog-card-tag">Social Media</span>
+            </div>
+            <h3>5 Social Media Trends to Watch in 2026</h3>
+            <p>The landscape is always shifting. Here's what's actually worth paying attention to this year.</p>
+            <a href="/blog/social-media-trends-2026" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card-image">
+            <div class="blog-cover">
+              <img src="images/phone-photo-closeup.jpg" alt="Close-up of hands holding a phone capturing content">
+              <img src="images/phone-app-hands.jpg" alt="A person using a social media app on their phone">
+              <img src="images/workspace-wooden-table.jpg" alt="A warm, styled workspace on a wooden table">
+            </div>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span class="blog-card-date">January 20, 2026</span>
+              <span class="blog-card-tag">Content Creation</span>
+            </div>
+            <h3>Creating Video Content That Doesn't Feel Forced</h3>
+            <p>Authenticity matters more than production value. Here's how to show up naturally on camera.</p>
+            <a href="/blog/authentic-video-content" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card-image">
+            <div class="blog-cover">
+              <img src="images/workspace-laptop-white-desk.jpg" alt="Laptop on a clean desk in soft natural light">
+              <img src="images/laptop-window-light.jpg" alt="A bright workspace by a window">
+              <img src="images/laptop-screen-images.jpg" alt="A laptop screen showing content">
+            </div>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span class="blog-card-date">January 15, 2026</span>
+              <span class="blog-card-tag">Email Marketing</span>
+            </div>
+            <h3>Why Your Email Open Rates Are Dropping (And How to Fix It)</h3>
+            <p>It's not just you. Email engagement is changing. Here's what's actually working now.</p>
+            <a href="/blog/email-open-rates" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
       </div>
 
       <div class="text-center mt-lg fade-in">
-        <a href="services.html" class="btn btn-outline">View All Services</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Results Section -->
-  <section class="section section-dark">
-    <div class="container">
-      <div class="text-center mb-lg fade-in">
-        <h2>Results That Matter</h2>
-        <p class="text-large">Real impact for real brands.</p>
-      </div>
-
-      <div class="stats-grid fade-in">
-        <div class="stat-item">
-          <div class="stat-number">10+</div>
-          <div class="stat-label">Active Clients</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">10</div>
-          <div class="stat-label">Industries Served</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">8</div>
-          <div class="stat-label">Years Experience</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-number">100+</div>
-          <div class="stat-label">Posts Published Monthly</div>
-        </div>
-      </div>
-
-      <div class="text-center mt-lg fade-in">
-        <a href="portfolio.html" class="btn btn-light">See Case Studies</a>
+        <a href="/blog" class="btn btn-outline">Read More on the Blog</a>
       </div>
     </div>
   </section>
@@ -124,7 +235,7 @@
     <div class="container text-center fade-in">
       <h2>Ready to elevate your brand?</h2>
       <p class="text-large mb-lg">Let's create something that resonates with your audience and drives real results.</p>
-      <a href="contact.html" class="btn btn-light">Get in Touch</a>
+      <a href="/contact" class="btn btn-light">Get in Touch</a>
     </div>
   </section>
 
@@ -139,29 +250,30 @@
         <div>
           <h4>Navigation</h4>
           <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/blog">Blog</a></li>
           </ul>
         </div>
         <div>
           <h4>Connect</h4>
           <ul class="footer-links">
             <li><a href="https://instagram.com/lefthandsocial" target="_blank">Instagram</a></li>
-            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
-            <li><a href="https://tiktok.com" target="_blank">TikTok</a></li>
+            <li><a href="https://www.linkedin.com/company/lefthand-social/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://tiktok.com/@lefthandsocial" target="_blank">TikTok</a></li>
           </ul>
+          <a href="mailto:lefthandsocial@gmail.com" class="footer-email-btn"><i class="fa-regular fa-envelope"></i> Email Us</a>
         </div>
       </div>
       <div class="footer-bottom">
         <p class="footer-copyright">&copy; 2026 Lefthand Social. All rights reserved.</p>
         <div class="footer-social">
           <a href="https://instagram.com/lefthandsocial" target="_blank">Instagram</a>
-          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-          <a href="https://tiktok.com" target="_blank">TikTok</a>
+          <a href="https://www.linkedin.com/company/lefthand-social/" target="_blank">LinkedIn</a>
+          <a href="https://tiktok.com/@lefthandsocial" target="_blank">TikTok</a>
         </div>
       </div>
     </div>
@@ -200,7 +312,7 @@
     </div>
   </div>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=2"></script>
   <script src="js/case-studies.js"></script>
 </body>
 </html>

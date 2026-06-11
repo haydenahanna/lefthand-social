@@ -2,11 +2,11 @@
 
 const caseStudies = {
   'lawton-smith': {
-    name: 'The Lawton & Smith Team',
+    name: 'Luxury Real Estate Team',
     industry: 'Luxury Real Estate · Denver, Colorado',
     image: 'images/Lawton Smith Hero Image.jpg',
-    challenge: 'A top-producing Denver luxury real estate team needed to establish a stronger digital presence and position themselves as thought leaders in the competitive high-end market. They lacked consistent branding across platforms and had minimal engagement with their target audience of luxury home buyers and sellers.',
-    approach: 'Developed a comprehensive organic social media strategy with elevated, cohesive branding across all platforms. Created sophisticated content that speaks to high-net-worth clients while maintaining approachability. Launched a monthly newsletter to nurture relationships and establish expertise. Focused on thought leadership content for LinkedIn to connect with industry peers and high-value prospects.',
+    challenge: 'A top-producing Denver luxury real estate team needed to establish a stronger digital presence and position themselves as thought leaders in the competitive high-end market. They had no cohesive marketing strategy in place, lacked consistent branding across platforms, and had minimal engagement with their target audience of luxury home buyers and sellers.',
+    approach: 'Built a complete marketing system from the ground up. Established elevated, cohesive branding across every platform and cleaned up and organized their CRM to support consistent client follow-up. Managed organic and paid social across Instagram, Facebook, LinkedIn, and TikTok, paired with digital ads, print marketing, and ongoing website updates backed by SEO and SEM. Created sophisticated content that speaks to high-net-worth clients while staying approachable, launched a monthly newsletter to nurture relationships, and produced thought leadership content for LinkedIn to connect with industry peers and high-value prospects.',
     impact: 'Transformed their online presence into a powerful lead generation and brand-building engine. The team closed $10.2 million in real estate volume within six months, supported by a growing community of engaged followers who view them as trusted advisors in Denver\'s luxury market.',
     metrics: [
       { value: '+16,700%', label: 'Instagram Reach' },
@@ -16,11 +16,11 @@ const caseStudies = {
       { value: '21%', label: 'Newsletter Click Rate' },
       { value: '$10.2M', label: 'Volume Closed (6 mo)' }
     ],
-    services: ['Instagram Management', 'Facebook Management', 'LinkedIn Strategy', 'Email Marketing', 'Brand Strategy', 'Content Creation']
+    services: ['Brand Strategy', 'Instagram Management', 'Facebook Management', 'LinkedIn Strategy', 'TikTok Management', 'Content Creation', 'Email Marketing', 'CRM Cleanup', 'Website Updates', 'SEO & SEM', 'Paid Social & Digital Ads', 'Print Marketing']
   },
 
   'the-saint': {
-    name: 'The Saint Resort',
+    name: 'Luxury Boutique Resort',
     industry: 'Luxury Hospitality · St. John, USVI',
     image: 'images/Saint Hero Image.jpg',
     challenge: 'A boutique luxury resort in the U.S. Virgin Islands needed to maintain visibility and drive direct bookings in a competitive Caribbean hospitality market. With stunning visuals but limited engagement, they needed a strategy that would convert followers into guests.',
@@ -37,7 +37,7 @@ const caseStudies = {
   },
 
   'ocean-surfari': {
-    name: 'Ocean Surfari',
+    name: 'Beach Apparel Retailer',
     industry: 'Beach Apparel Retail · U.S. Virgin Islands',
     image: 'images/OS Hero Image.JPEG',
     challenge: 'A beloved beach apparel brand with retail locations in the Virgin Islands needed to expand their reach beyond walk-in traffic and build an online presence that could drive e-commerce sales. They had loyal local customers but limited visibility with tourists before they arrived on the island.',
@@ -54,7 +54,7 @@ const caseStudies = {
   },
 
   'reef-surfari': {
-    name: 'Reef Surfari',
+    name: 'Charter & Excursion Company',
     industry: 'Boat Excursions & Tours · U.S. Virgin Islands',
     image: 'images/RS Hero Image.JPEG',
     challenge: 'A premier boat excursion company offering unforgettable island experiences needed to stand out in a crowded tour operator market. While they delivered exceptional experiences, their online presence wasn\'t capturing the magic of what they offer or converting interest into bookings.',
@@ -71,10 +71,10 @@ const caseStudies = {
   },
 
   'organic-sandwich': {
-    name: 'Organic Sandwich Company',
+    name: 'Locally Owned Restaurant',
     industry: 'Restaurant · Boulder & Louisville, Colorado',
     image: 'images/Organic Sandwich Hero Image.jpg.webp',
-    challenge: 'A beloved local restaurant known for fresh, organic ingredients needed to expand their reach and connect with the Boulder community in a meaningful way. Despite a loyal customer base, they weren\'t capturing the attention of University of Colorado students and the broader Boulder food scene on social media.',
+    challenge: 'A beloved locally owned restaurant known for fresh, organic ingredients needed to expand their reach and connect with the Boulder community in a meaningful way. Despite a loyal customer base, they weren\'t capturing the attention of University of Colorado students and the broader Boulder food scene on social media.',
     approach: 'Developed a video-first content strategy leveraging Reels and TikTok to showcase their vibrant food and laid-back atmosphere. Created content that resonates with health-conscious locals, students, and the Boulder lifestyle. Focused on authentic, behind-the-scenes content that highlights what makes them special.',
     impact: 'Exploded their social presence virtually overnight, reaching thousands of new potential customers across Colorado. The dramatic increase in visibility introduced the brand to CU students, health-conscious locals, and Boulder visitors, directly supporting foot traffic and building lasting brand awareness.',
     metrics: [
@@ -91,15 +91,15 @@ const caseStudies = {
     name: 'Real Estate Developer',
     industry: 'Luxury Custom Homes & Development · Denver, Colorado',
     image: 'images/NPC-hero.jpg',
-    challenge: 'A luxury real estate developer delivering ground-up custom homes and high-end remodels across Denver needed a digital presence that matched the caliber of their work. With no established brand voice or content strategy, they were missing opportunities to showcase craftsmanship, attract custom build clients, and position themselves as a leader in the Denver luxury development market.',
-    approach: 'Built a refined, minimal brand voice that mirrors the work itself: confident, intentional, and free of fluff. Developed a content strategy organized around project showcases, craft and detail close-ups, the design process, and process and philosophy. Coordinated cross-promotion with the affiliated luxury real estate team, connecting the build side and the buy side of the Denver market.',
-    impact: 'Established a clear, ownable brand presence in the Denver luxury development space. Content positions the developer as the standard for thoughtful, ground-up custom homes, supporting both client acquisition and long-term brand equity as the portfolio grows.',
+    challenge: 'A luxury real estate developer delivering ground-up custom homes and high-end remodels across Denver needed a digital presence that matched the caliber of their work. They had no website, brand voice, or content strategy, and were missing opportunities to showcase craftsmanship, attract custom build clients, and position themselves as a leader in the Denver luxury development market.',
+    approach: 'Designed and built their website from scratch and developed a refined, minimal brand identity that mirrors the work itself: confident, intentional, and free of fluff. Set up and optimized their Google Business Profile for local search, then built a social media strategy and content engine organized around project showcases, craft and detail close-ups, and the design process. Launched new properties directly through social media and coordinated cross-promotion with the affiliated luxury real estate team, connecting the build side and the buy side of the Denver market.',
+    impact: 'Launched a clear, ownable brand presence and saw rapid traction in the first month, growing Instagram from 20 to 223 followers and driving an 800% increase in reach. The strategy positioned the developer as the standard for thoughtful, ground-up custom homes, supporting both client acquisition and long-term brand equity as the portfolio grows.',
     metrics: [
-      { value: 'New', label: 'Brand Launch' },
-      { value: '4', label: 'Content Buckets' },
-      { value: '2', label: 'Sister Brands' }
+      { value: '+1,015%', label: 'Instagram Followers' },
+      { value: '+800%', label: 'Instagram Reach' },
+      { value: '+646%', label: 'LinkedIn Impressions' }
     ],
-    services: ['Brand Voice Development', 'Instagram Management', 'Facebook Management', 'LinkedIn Strategy', 'Content Strategy', 'Cross-Brand Strategy']
+    services: ['Website Design & Development', 'Branding', 'Social Media Strategy', 'Content Creation', 'Google Business Optimization', 'Property Launch Campaigns', 'Instagram Management', 'LinkedIn Strategy']
   },
 
   'vacation-rental': {
@@ -107,14 +107,15 @@ const caseStudies = {
     industry: 'Short-Term Rental · Hospitality',
     image: 'images/vacation-rental-hero.JPG',
     challenge: 'A vacation rental property needed to stand out in a saturated short-term rental market and drive direct bookings. With strong amenities but limited online visibility, they needed a content strategy that would inspire travelers and convert interest into reservations.',
-    approach: 'Created a destination-driven content strategy that showcases the property and the surrounding location. Built engagement through travel-focused communities and platforms where guests actively plan trips. Focused on driving traffic to direct booking channels to reduce reliance on third-party platforms.',
-    impact: 'Grew the property\'s digital presence into a consistent booking driver, with content that captures the experience guests can expect when they arrive.',
+    approach: 'Launched the property\'s Airbnb listing and optimized it for search, earning consistent top placement in the area\'s results across both Airbnb and VRBO. Launched social accounts across TikTok, Instagram, and Facebook with a destination-driven content strategy that showcases the property and the surrounding location, driving travelers from social discovery straight to booking.',
+    impact: 'Turned a brand-new listing into a consistent booking driver, increasing booking revenue by $20,000 and generating strong first-month visibility with 32,000 TikTok views and 10,000 Instagram views. Consistent top search rankings on Airbnb and VRBO keep the property in front of travelers actively planning their stay.',
     metrics: [
-      { value: 'TBD', label: 'Booking Inquiries' },
-      { value: 'TBD', label: 'Reach Growth' },
-      { value: 'TBD', label: 'Direct Bookings' }
+      { value: '+$20K', label: 'Booking Revenue' },
+      { value: '32,000', label: 'TikTok Views' },
+      { value: '10,000', label: 'Instagram Views' },
+      { value: 'Top Ranked', label: 'Airbnb & VRBO Search' }
     ],
-    services: ['Instagram Management', 'Facebook Management', 'Content Creation', 'Booking Strategy', 'Community Engagement']
+    services: ['Airbnb Listing Launch', 'Search Optimization', 'TikTok Management', 'Instagram Management', 'Facebook Management', 'Content Creation', 'Booking Strategy']
   }
 };
 

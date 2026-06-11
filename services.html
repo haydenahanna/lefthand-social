@@ -14,7 +14,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -26,19 +26,19 @@
   <!-- Navigation -->
   <nav class="nav">
     <div class="container nav-container">
-      <a href="index.html" class="nav-logo"><img src="images/Lefthand Horiztonal Logo.svg" alt="Lefthand Social"></a>
+      <a href="/" class="nav-logo"><img src="images/Lefthand Horiztonal Logo.svg" alt="Lefthand Social"></a>
       <div class="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </div>
       <ul class="nav-links">
-        <li><a href="index.html" class="nav-link">Home</a></li>
-        <li><a href="about.html" class="nav-link">About</a></li>
-        <li><a href="services.html" class="nav-link active">Services</a></li>
-        <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-        <li><a href="contact.html" class="nav-link">Contact</a></li>
-        <li><a href="blog.html" class="nav-link">Blog</a></li>
+        <li><a href="/" class="nav-link">Home</a></li>
+        <li><a href="/about" class="nav-link">About</a></li>
+        <li><a href="/services" class="nav-link active">Services</a></li>
+        <li><a href="/portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="/contact" class="nav-link">Contact</a></li>
+        <li><a href="/blog" class="nav-link">Blog</a></li>
       </ul>
     </div>
   </nav>
@@ -50,81 +50,80 @@
     <div class="container">
       <div class="hero-content fade-in">
         <p class="hero-tagline">Services</p>
-        <h1>How We Can Help</h1>
-        <p class="hero-description">Tailored marketing solutions that fit your brand's unique needs and goals.</p>
+        <h1 class="caps">How We Can <em>Help</em></h1>
+        <p class="hero-description">Tailored marketing that fits your brand, your goals, and your budget.</p>
+        <button type="button" class="btn btn-light js-open-inquiry">Get Started</button>
       </div>
     </div>
   </section>
 
-  <!-- Services Grid -->
+  <!-- Intro / Positioning -->
   <section class="section">
     <div class="container">
-      <div class="services-grid fade-in">
-        <div class="service-card">
-          <div class="service-icon"><i class="fab fa-instagram"></i></div>
-          <h3>Social Media Management</h3>
-          <p>From content creation to community engagement, we handle the day-to-day of your social presence so you can focus on running your business.</p>
+      <div class="hook-split fade-in">
+        <div class="hook-text">
+          <p class="hero-tagline">What We Offer</p>
+          <h2>Marketing built around <em>you</em>.</h2>
+          <p class="text-large">Every brand needs something different. We offer a wide range of solutions, all customizable to your business and your budget, and shaped around your goals and the people you're trying to reach.</p>
+          <p style="font-style: italic;">Browse our core services below.</p>
         </div>
-
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-envelope"></i></div>
-          <h3>Email Marketing</h3>
-          <p>Strategic email campaigns that nurture your audience and drive action. Emails that people actually want to open and read.</p>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
-          <h3>Content Strategy</h3>
-          <p>A cohesive plan for what to say, where to say it, and when. Strategies that align with your business goals and maintain brand consistency.</p>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-video"></i></div>
-          <h3>Video Content</h3>
-          <p>Short-form video content for TikTok, Reels, and beyond. Helping brands show up authentically where audiences are most engaged.</p>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
-          <h3>Website Design</h3>
-          <p>Clean, modern websites that reflect your brand and convert visitors into customers. Web experiences that look great on any device.</p>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon"><i class="fas fa-comments"></i></div>
-          <h3>Marketing Consulting</h3>
-          <p>Digital advertising, print materials, CRM setup, or developing a roadmap for growth. If it helps your brand reach people, let's talk.</p>
+        <div class="overlap-stack">
+          <img class="overlap-a" src="images/workspace-wooden-table.jpg" alt="A styled brand workspace">
+          <img class="overlap-b" src="images/phone-photo-closeup.jpg" alt="Capturing content on a phone">
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Services Index (jump links, over image) -->
+  <section class="section image-feature">
+    <div class="image-feature-bg">
+      <img src="images/laptop-window-light.jpg" alt="">
+    </div>
+    <div class="container">
+      <p class="hero-tagline fade-in">Our Services</p>
+      <nav class="services-jump fade-in">
+        <a href="#full-social" class="services-jump-item">
+          <span class="services-jump-name">Full Social Management</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#content-creation" class="services-jump-item">
+          <span class="services-jump-name">Content Creation</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#custom-solutions" class="services-jump-item">
+          <span class="services-jump-name">Custom Solutions</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </nav>
     </div>
   </section>
 
   <!-- How It Works -->
-  <section class="section section-dark">
+  <section class="section" style="padding-top: var(--spacing-lg); padding-bottom: var(--spacing-lg);">
     <div class="container">
       <div class="text-center mb-lg fade-in">
-        <h2>How It Works</h2>
-        <p class="text-large">A simple process designed to get results.</p>
+        <p class="hero-tagline">The Process</p>
+        <h2>How it <em>works</em></h2>
       </div>
-
-      <div class="grid grid-4 fade-in">
-        <div class="text-center">
-          <h4 style="font-family: var(--font-heading); font-size: 2.5rem; margin-bottom: var(--spacing-sm);">01</h4>
+      <div class="process-grid fade-in">
+        <div class="process-step">
+          <div class="process-num">01</div>
           <h4>Discovery</h4>
           <p class="text-small">We start with a conversation about your brand, goals, and audience.</p>
         </div>
-        <div class="text-center">
-          <h4 style="font-family: var(--font-heading); font-size: 2.5rem; margin-bottom: var(--spacing-sm);">02</h4>
+        <div class="process-step">
+          <div class="process-num">02</div>
           <h4>Strategy</h4>
-          <p class="text-small">We develop a customized plan tailored to your specific needs.</p>
+          <p class="text-small">We build a plan tailored to your specific needs and audience.</p>
         </div>
-        <div class="text-center">
-          <h4 style="font-family: var(--font-heading); font-size: 2.5rem; margin-bottom: var(--spacing-sm);">03</h4>
+        <div class="process-step">
+          <div class="process-num">03</div>
           <h4>Creation</h4>
           <p class="text-small">Content is created, reviewed, and refined until it's just right.</p>
         </div>
-        <div class="text-center">
-          <h4 style="font-family: var(--font-heading); font-size: 2.5rem; margin-bottom: var(--spacing-sm);">04</h4>
+        <div class="process-step">
+          <div class="process-num">04</div>
           <h4>Execute</h4>
           <p class="text-small">Your marketing goes live, with ongoing optimization and support.</p>
         </div>
@@ -132,21 +131,111 @@
     </div>
   </section>
 
-  <!-- Packages Note -->
-  <section class="section">
+  <!-- Service 01: Full Social Management (text left / image right) -->
+  <section class="section service-section" id="full-social" style="background-color: var(--color-cream-dark);">
     <div class="container">
-      <div class="about-grid fade-in" style="grid-template-columns: 1fr 1fr; gap: var(--spacing-xl);">
-        <div>
-          <h2>Flexible Solutions</h2>
-          <p class="text-large">Every brand is different, so cookie-cutter packages don't make sense.</p>
-          <p>We work with each client to create a scope that fits their actual needs, whether that's full-service social media management, monthly content batches, or project-based consulting.</p>
-          <p>Let's talk about what you're looking for and build something that works for you.</p>
-          <a href="contact.html" class="btn btn-primary mt-md">Start a Conversation</a>
+      <div class="hook-split fade-in">
+        <div class="hook-text">
+          <p class="hero-tagline">Full Social Management</p>
+          <h2>Your whole social presence, <em>handled</em>.</h2>
+          <p class="text-large">We run your social from strategy to posting to weekly engagement, all scaled to your business and your budget. You stay focused on the work while your brand shows up consistently and keeps growing.</p>
+          <p class="service-included-label">What's included</p>
+          <ul class="service-included">
+            <li>Custom social media strategy</li>
+            <li>Reels, carousels, stills &amp; stories</li>
+            <li>Editing and copywriting</li>
+            <li>Done-for-you posting &amp; scheduling</li>
+            <li>Weekly strategic engagement</li>
+            <li>Monthly analytics reporting</li>
+          </ul>
+          <p class="service-addon">Email marketing &amp; newsletters available as an add-on.</p>
+          <button type="button" class="btn btn-primary mt-md js-open-inquiry">Get Started</button>
         </div>
-        <div class="about-image">
-          <img src="images/workspace-wooden-table.jpg" alt="Warm workspace on a wooden table">
+        <div class="overlap-stack">
+          <img class="overlap-a" src="images/phone-app-hands.jpg" alt="Managing a brand's social feed">
+          <img class="overlap-b" src="images/laptop-screen-images.jpg" alt="Reviewing content on a laptop">
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Service 02: Content Creation (image left / text right) -->
+  <section class="section service-section" id="content-creation">
+    <div class="container">
+      <div class="hook-split fade-in">
+        <div class="overlap-stack overlap-stack-tall">
+          <img class="overlap-a" src="images/phone-photo-closeup.jpg" alt="Capturing content on a phone">
+          <img class="overlap-b" src="images/workspace-wooden-table.jpg" alt="A styled brand workspace">
+        </div>
+        <div class="hook-text">
+          <p class="hero-tagline">Content Creation</p>
+          <h2>Scroll-stopping content, <em>captured for you</em>.</h2>
+          <p class="text-large">For brands in Boulder, Colorado and the surrounding areas, we come to you to shoot Reels, carousels, stills, and stories, then handle the editing and copy, so you always have content ready to post.</p>
+          <p class="service-included-label">What's included</p>
+          <ul class="service-included">
+            <li>In-person capture in Boulder, Colorado and surrounding areas</li>
+            <li>Reels, carousels, stills &amp; stories</li>
+            <li>Professional editing</li>
+            <li>Copywriting</li>
+            <li>Ready-to-post deliverables</li>
+          </ul>
+          <button type="button" class="btn btn-primary mt-md js-open-inquiry">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service 03: Custom Solutions (text left / image right) -->
+  <section class="section service-section" id="custom-solutions" style="background-color: var(--color-cream-dark);">
+    <div class="container">
+      <div class="hook-split fade-in">
+        <div class="hook-text">
+          <p class="hero-tagline">Custom Solutions</p>
+          <h2>A scope built <em>around you</em>.</h2>
+          <p class="text-large">A one-off project, ongoing consulting, or something entirely your own. Not every brand fits neatly into a package, so we build a scope around your goals and your budget, whatever you have in mind.</p>
+          <p class="service-included-label">What's included</p>
+          <ul class="service-included">
+            <li>One-off projects</li>
+            <li>Marketing consulting</li>
+            <li>Brand and strategy support</li>
+            <li>Flexible, custom scopes</li>
+          </ul>
+          <button type="button" class="btn btn-primary mt-md js-open-inquiry">Get Started</button>
+        </div>
+        <div class="overlap-stack">
+          <img class="overlap-a" src="images/workspace-wooden-table.jpg" alt="A styled brand workspace">
+          <img class="overlap-b" src="images/phone-app-hands.jpg" alt="Browsing a brand on a phone">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Don't see it -->
+  <section class="section">
+    <div class="container">
+      <div class="hook-split fade-in">
+        <div class="overlap-stack">
+          <img class="overlap-a" src="images/laptop-window-light.jpg" alt="A bright, minimal workspace by a window">
+          <img class="overlap-b" src="images/phone-photo-closeup.jpg" alt="Capturing content on a phone">
+        </div>
+        <div class="hook-text">
+          <p class="hero-tagline">Something Else in Mind?</p>
+          <h2>Don't see what you're <em>looking for</em>?</h2>
+          <p class="text-large">Our work goes well beyond the list above. We've helped brands with website design, CRM, live event and wedding content capture, UGC, brand identity, and beyond, and we have the team and resources to take on whatever you're picturing.</p>
+          <p>Send us a message with what you have in mind and we'd love to talk it through.</p>
+          <button type="button" class="btn btn-primary mt-md js-open-inquiry">Send Us a Message</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-large cta-video">
+    <div class="cta-overlay"></div>
+    <div class="container text-center fade-in">
+      <h2>Let's build something</h2>
+      <p class="text-large mb-lg">Tell us about your brand and we'll map out a scope that fits.</p>
+      <button type="button" class="btn btn-light js-open-inquiry">Get Started</button>
     </div>
   </section>
 
@@ -161,34 +250,93 @@
         <div>
           <h4>Navigation</h4>
           <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/blog">Blog</a></li>
           </ul>
         </div>
         <div>
           <h4>Connect</h4>
           <ul class="footer-links">
             <li><a href="https://instagram.com/lefthandsocial" target="_blank">Instagram</a></li>
-            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
-            <li><a href="https://tiktok.com" target="_blank">TikTok</a></li>
+            <li><a href="https://www.linkedin.com/company/lefthand-social/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://tiktok.com/@lefthandsocial" target="_blank">TikTok</a></li>
           </ul>
+          <a href="mailto:lefthandsocial@gmail.com" class="footer-email-btn"><i class="fa-regular fa-envelope"></i> Email Us</a>
         </div>
       </div>
       <div class="footer-bottom">
         <p class="footer-copyright">&copy; 2026 Lefthand Social. All rights reserved.</p>
         <div class="footer-social">
           <a href="https://instagram.com/lefthandsocial" target="_blank">Instagram</a>
-          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-          <a href="https://tiktok.com" target="_blank">TikTok</a>
+          <a href="https://www.linkedin.com/company/lefthand-social/" target="_blank">LinkedIn</a>
+          <a href="https://tiktok.com/@lefthandsocial" target="_blank">TikTok</a>
         </div>
       </div>
     </div>
   </footer>
 
+  <!-- Inquiry Form Modal -->
+  <div class="case-modal" id="inquiry-modal">
+    <div class="case-modal-content case-modal-content--narrow">
+      <button class="case-modal-close" data-close>&times;</button>
+      <div class="case-modal-body">
+        <p class="hero-tagline">Get Started</p>
+        <h2>Tell us about your <em>brand</em></h2>
+        <p class="mb-md">Share a few details and we'll be in touch within 24 to 48 hours with next steps.</p>
+
+        <!-- FormSubmit (free, no account). Submissions go to lefthandsocial@gmail.com. -->
+        <form action="https://formsubmit.co/lefthandsocial@gmail.com" method="POST">
+          <!-- FormSubmit settings -->
+          <input type="hidden" name="_subject" value="New service inquiry — Lefthand Social">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://lefthandsocial.com/thank-you">
+          <!-- Honeypot spam trap (leave empty) -->
+          <input type="text" name="_honey" style="display:none">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" name="name" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="business" class="form-label">Business Name</label>
+            <input type="text" id="business" name="business" class="form-input">
+          </div>
+
+          <div class="form-group">
+            <label for="service" class="form-label">Service of interest</label>
+            <select id="service" name="service" class="form-select">
+              <option value="" disabled selected>Select one</option>
+              <option>Full Social Management</option>
+              <option>Content Creation</option>
+              <option>Email Marketing</option>
+              <option>Custom / Not sure yet</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">Tell us about your brand and goals</label>
+            <textarea id="message" name="message" class="form-textarea" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Inquiry</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
   <script src="js/main.js"></script>
+  <script src="js/services.js"></script>
 </body>
 </html>
